@@ -4,7 +4,7 @@ from configs import *
 from utils import FILE_FOLDER, create_chat_chain
 
 def config_page():
-    st.header("Config RAG based on your preferences", divider=True)
+    st.header("Config RAG based on your preference", divider=True)
     
     model_name = st.text_input("Choose model", value=get_config('model_name'))
     retrieval_search_type = st.text_input("Set Retrieval type", value=get_config('retrieval_search_type'))
